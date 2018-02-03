@@ -1,4 +1,4 @@
-KERN_VER=`uname -r`
+KERN_VER=$(shell uname -r)
 PKGNAME=oai-gtp-${KERN_VER}
 ITERATION=14
 
